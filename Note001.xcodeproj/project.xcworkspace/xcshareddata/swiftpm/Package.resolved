@@ -1,0 +1,60 @@
+{
+  "originHash" : "129f4aaf4d90a973db6d27b52b1bfaa30f1ae39fb4b95393c25c793666e896fd",
+  "pins" : [
+    {
+      "identity" : "chtcollectionviewwaterfalllayout",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/chiahsien/CHTCollectionViewWaterfallLayout.git",
+      "state" : {
+        "revision" : "1fe42247efc8aea1ad03332d2b44f2d7fb1644bc",
+        "version" : "0.9.10"
+      }
+    },
+    {
+      "identity" : "keychainaccess",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kishikawakatsumi/KeychainAccess",
+      "state" : {
+        "branch" : "master",
+        "revision" : "e0c7eebc5a4465a3c4680764f26b7a61f567cdaf"
+      }
+    },
+    {
+      "identity" : "nvactivityindicatorview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ninjaprox/NVActivityIndicatorView",
+      "state" : {
+        "revision" : "121455c4e630fcb95aaefd7e4257b0c2e3cfe6d5",
+        "version" : "5.2.0"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage",
+      "state" : {
+        "revision" : "86e9185ef41c4238a93ad8efe61ddeb701e80bbf",
+        "version" : "5.19.5"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    },
+    {
+      "identity" : "tocropviewcontroller",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/TimOliver/TOCropViewController",
+      "state" : {
+        "revision" : "a634cb7cdfd580006e79a6e74e64417fe9e9783b",
+        "version" : "2.7.4"
+      }
+    }
+  ],
+  "version" : 3
+}

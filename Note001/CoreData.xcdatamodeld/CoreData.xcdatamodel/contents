@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Folder" representedClassName="Folder" syncable="YES">
+        <attribute name="folderID" optional="YES" attributeType="String"/>
+        <attribute name="folderName" optional="YES" attributeType="String"/>
+        <relationship name="notes" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Notes" inverseName="folder" inverseEntity="Notes"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="folderName"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="Notes" representedClassName="Notes" syncable="YES">
+        <attribute name="detail" optional="YES" attributeType="String"/>
+        <attribute name="noteID" optional="YES" attributeType="String"/>
+        <attribute name="titles" optional="YES" attributeType="String"/>
+        <relationship name="folder" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Folder" inverseName="notes" inverseEntity="Folder"/>
+    </entity>
+    <entity name="Wallpapers" representedClassName="Wallpapers" syncable="YES">
+        <attribute name="dateAdded" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+</model>
